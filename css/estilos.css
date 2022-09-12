@@ -515,5 +515,16 @@ li:hover {
     margin-top: 400%;
     grid-template-columns: repeat(1, 1fr);
  } 
-
+ /*-----Productos2------*/
+ .divProductos2{
+    width: 80vw;
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+ 
 }
