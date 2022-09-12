@@ -104,7 +104,8 @@ li{
 
 
 li:hover {
-    background-color: rgb(165, 27, 27);
+    background-color: rgb(134, 29, 29);
+    transform: scale(110%);
 }
 /*----------------------------------------*/
 .servicios{
@@ -198,11 +199,16 @@ li:hover {
 }
 .boton_inicio{
     background-color: blue;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(14,14,101,1) 35%, rgba(0,212,255,1) 100%);
     padding: 5% 50px;
     border-radius: 20px;
     margin-top: 50vh;
     color: white;
     cursor:pointer;
+}
+.boton_inicio:hover{
+    transform: scale(110%);
 }
 #logo div h4{
     
@@ -215,6 +221,22 @@ li:hover {
     display: flex;
     flex-direction: column;
 }
+
+/*-----------------------------*/
+/*-------Pagina Productos2------*/
+
+#main-headerGradiente{
+    position: absolute ;
+    height: 16%;
+    width: 100%; 
+    background-color: black;
+	left: 0; 
+	top: 0; 
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(14,14,101,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+
 /*--------Contacto---------*/
 
 .pagina_contacto{
