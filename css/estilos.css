@@ -482,8 +482,16 @@ li:hover {
     background-color: yellowgreen;
 }
 
-
-
+/*--------------- Pagina de Servicios 2----------------- */
+/* .containerCards{
+    display: flex;
+    flex-direction: row;
+    ;
+    padding: 2px;
+} */
+.card-title{
+    color: crimson;
+}
 
 /* ----------------------------------------------------- */
 /* ---------------  Media Queries -----------------------*/
