@@ -7,7 +7,7 @@
     color: white;
     
 }
-.Inicio{
+/* .Inicio{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -16,18 +16,28 @@
     background-size: cover;
     background-position: center;
     
+} */
+
+.bg-colornav{
+    background-color: black;
+    height: 16%;
 }
-
-
+.nav-link{
+    color: aliceblue !important;
+}
+.navbar-toggler-icon {
+    background-color: aliceblue;
+    border-radius: 20%;
+}
 
 
 
 #main-header{
     
     position: absolute ;
-    height: 16%;
+    height: 26%;
     width: 100%; 
-    background-color: black;
+    /* background-color: green; */
 	left: 0; 
 	top: 0; 
 
@@ -35,6 +45,7 @@
 .navegacion{
     position: absolute;
     z-index: 1000;
+    
 }
 
 #logo{
@@ -43,11 +54,12 @@
     align-items: center;
 }
 #logo img{
-    height: 80px;
+    height: 60px;
 }
 #encabezado{
     font-family: sans-serif;
-    margin-left: 20px;    
+    margin-left: 20px;
+    color: black;    
 }
 .PiePagina {
 display: flex;   
@@ -76,41 +88,50 @@ body{
 
 
 
-
-
 nav{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
+    /* background-color: yellow; */
     position: relative;
     
 }
 
-.menu{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    
-}
 
 li{
     list-style: none;
     cursor: pointer;
-    padding: 1.5vw;
+    padding: 1vw;
     transition: all .3s ease 0s;
+    
 }
 
 
 
 li:hover {
-    background-color: rgb(134, 29, 29);
-    transform: scale(110%);
+    /* background-color: green; */
+    transform: scale(99%);
+    
 }
+li>a:hover{
+    color: red !important;
+    background-color: black !important;
+} 
+#navbarSupportedContent{
+    background-color: black;
+}
+.dropdown-item{
+    color: white;
+}
+.dropdown-menu.show{
+   background-color: black; 
+}
+
 /*----------Pagina index------------------*/
 .carrousel1{
-    z-index: -1;
+    z-index: -
+    1;
 }
 .carousel-inner > .carousel-item active > img{
     object-fit: scale-down;
@@ -527,6 +548,7 @@ li:hover {
 /* ---------------  Media Queries -----------------------*/
 
 @media only screen and (max-width: 576px){
+    
     
     /*Galeria Grid Servicios1*/
     .ContainerPadreServicios1{

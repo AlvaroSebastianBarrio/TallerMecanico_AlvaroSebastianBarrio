@@ -8,43 +8,71 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <title>Taller Mecanico</title>
     <link rel="stylesheet" href="./css/estilos.css">
+   
 </head>
 
 <body>
     
     <header id="main-header">
-        <div>
-            <section id="logo">
-                <img src="./img/logo.png" alt="logo">
-                <h1 id="encabezado">Taller Mecanico</h1>
-            </section>    
-    
-    
+        <div class="navegacion">
+            <!---------------------- MENU RESPONSIVO BOOSTRAP ------------------->
+            <nav class="navbar navbar-expand-lg navbar-item bg-colornav fixed-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <section id="logo">
+                        <img src="./img/logo.png" alt="logo">
+                        <h4 id="encabezado"><font color="white">Taller Mecanico</font></h4>
+                    </section>   
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="Inicio" href="./index.html">Inicio</a>
+                      </li>
+                      
+                      <li class="nav-item">
+                        <a class="nav-link" href="./NuestroTaller/nuestrotaller.html">Nuestro Taller</a>
+                      </li>
+                      
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Servicios
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="./Servicios/servicios1.html">Servicio #1</a></li>
+                          <li><a class="dropdown-item" href="./Servicios/servicios2.html">Servicio #2</a></li>
+                          <!-- <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                        </ul>
+                      </li>
 
-        
-            <nav class="navegacion">
-                <ul class="menu">
-                    <li><a href="#seccion1">Inicio</a></li>
-                    <li><a href="./NuestroTaller/nuestrotaller.html">Nuestro Taller</a></li>
-                    <li class="servicios">Servicios
-                        <ul class="submenu_Servicios">
-                            <li><a href="./Servicios/servicios1.html">Servicio #1</a></li>
-                            <li><a href="./Servicios/servicios2.html">Servicio #2</a></li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Productos
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="./Productos/productos1.html">Producto #1</a></li>
+                          <li><a class="dropdown-item" href="./Productos/productos2.html">Producto #2</a></li>
                         </ul>
-                    </li>    
-                    <li class="productos">Productos
-                        <ul class="submenu_Productos">
-                            <li><a href="./Productos/productos1.html">Producto #1</a></li>
-                            <li><a href="./Productos/productos2.html">Producto #2</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="./Contacto/contacto.html">Contacto</a></li>
+                      </li>
+                      
+                      <li class="nav-item">
+                        <a class="nav-link" href="./Contacto/contacto.html">Contacto</a>
+                      </li>
                     
-
-                </ul>
+                    </ul>
+                    
+                  </div>
+                </div>
             </nav>
-        </div>
-    </header>
+        
+        </div>    
+
+    </header>    
+    
     <!-----------------EMPIEZA CARROUSEL-------------------------------------------------->
     <div class="containerPadreCarrusel">
         <div class="carrousel1">
